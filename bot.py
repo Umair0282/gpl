@@ -20,7 +20,7 @@ bot = Client('ShortLinkBot',
 async def start(bot, message):
     await message.reply(
         f"**Hello!!💛{message.chat.first_name}!**\n\n"
-        "I am 𝐒𝐡𝐨𝐫𝐭𝐋𝐢𝐧𝐤𝐁𝐨𝐭. Send Me Any Short Link, I Will Convert It Into Short Link. \n\n This Bot Is Made By @sergio_contact_bot💖\n\nKnow More: [Click Here](https://t.me/https://t.me/about_sergio)")
+        "I am 𝐒𝐡𝐨𝐫𝐭𝐋𝐢𝐧𝐤𝐁𝐨𝐭. Send Me Any Short Link, I Will Convert It Into Short Link. \n\n This Bot Is Made By @sergio_contact_bot💖\n\nKnow More: [Click Here](https://t.me/about_sergio)")
 
 
 @bot.on_message(filters.regex(r'https?://[^\s]+') & filters.private)
